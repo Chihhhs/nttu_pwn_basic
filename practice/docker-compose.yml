@@ -1,0 +1,18 @@
+version: '3'
+services:
+  bof: 
+   build: ./bof/
+   volumes:
+    - ./bof/share:/home/bof:ro
+    - ./bof/xinetd:/etc/xinetd.d/bof:ro
+    - ./tmp:/tmp:ro
+   ports:
+    - "10710:4597"
+  shellcraft: 
+   build: ./shellcraft/
+   volumes:
+    - ./shellcraft/share:/home/shellcraft:ro
+    - ./shellcraft/xinetd:/etc/xinetd.d/shellcraft:ro
+    - ./tmp:/tmp:ro
+   ports:
+    - "10711:4597"
