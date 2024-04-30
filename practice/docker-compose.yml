@@ -11,8 +11,8 @@ services:
   shellcraft: 
    build: ./shellcraft/
    volumes:
-    - ./shellcraft/share:/home/shellcraft:ro
-    - ./shellcraft/xinetd:/etc/xinetd.d/shellcraft:ro
+    - ./sc/share:/home/sc:ro
+    - ./sc/xinetd:/etc/xinetd.d/sc:ro
     - ./tmp:/tmp:ro
    ports:
     - "10711:4597"
