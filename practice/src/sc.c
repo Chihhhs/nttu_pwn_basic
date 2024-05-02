@@ -13,9 +13,10 @@ char sc[0x100];
 int main(){
     init();
 
-    puts("Give me your shell");
+    puts("Give me your shell:");
     read(0,sc,0x100);
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    puts("And your buffer:");
+
     char buf[0x38];
     gets(buf);
 

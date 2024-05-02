@@ -6,7 +6,8 @@ void call_sh(){
 }
 
 int main(){
-    char buf[1000];
-    gets();
+    char buf[100];
+    puts("Welcome to bof challenge!");
+    gets(buf);
     return 0;
 }

@@ -4,12 +4,12 @@ services:
    build: ./bof/
    volumes:
     - ./bof/share:/home/bof:ro
-    - ./bof/xinetd:/etc/xinetd.d/bof:ro
+    - ./bof/xinetd:/etc/xineStd.d/bof:ro
     - ./tmp:/tmp:ro
    ports:
     - "10710:4597"
   shellcraft: 
-   build: ./shellcraft/
+   build: ./sc/
    volumes:
     - ./sc/share:/home/sc:ro
     - ./sc/xinetd:/etc/xinetd.d/sc:ro
