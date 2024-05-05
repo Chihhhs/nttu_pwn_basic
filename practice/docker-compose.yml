@@ -7,7 +7,7 @@ services:
     - ./bof/xinetd:/etc/xineStd.d/bof:ro
     - ./tmp:/tmp:ro
    ports:
-    - "10710:4597"
+    - "10170:4597"
   shellcraft: 
    build: ./sc/
    volumes:
@@ -15,4 +15,4 @@ services:
     - ./sc/xinetd:/etc/xinetd.d/sc:ro
     - ./tmp:/tmp:ro
    ports:
-    - "10711:4597"
+    - "10171:4597"

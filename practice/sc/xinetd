@@ -1,9 +1,9 @@
-service shellcraft
+service sc
 {
         disable = no
         type = UNLISTED
         wait = no
-        server = /home/shellcraft/run.sh
+        server = /home/sc/run.sh
         socket_type = stream
         protocol = tcp
         user = sc
