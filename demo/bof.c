@@ -7,6 +7,6 @@ void call_sh(){
 
 int main(){
     char buf[10];
-    gets();
+    gets(buf);
     return 0;
 }
