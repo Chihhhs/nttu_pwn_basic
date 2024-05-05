@@ -1,7 +1,7 @@
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 
-RUN apt-get update
-RUN apt-get install xinetd -y
+RUN apt update
+RUN apt install xinetd -y
 RUN useradd -m bof
 RUN chmod 774 /tmp
 RUN chmod -R 774 /var/tmp

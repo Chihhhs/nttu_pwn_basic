@@ -22,10 +22,10 @@
 
 ## Practice
 
-> `docker-compose`
+> docker-compose
 
 ```bash
-$cd prectice
+$cd advance
 $docker compose up -d
 ```
 

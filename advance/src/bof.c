@@ -6,8 +6,13 @@ void call_sh(){
 }
 
 int main(){
-    char buf[30];
+
+    setvbuf(stdout,0,2,0);
+    setvbuf(stdin,0,2,0);
+    setvbuf(stderr,0,2,0);
+    
     puts("Welcome to bof challenge!");
+    char buf[30];
     gets(buf);
     return 0;
 }
