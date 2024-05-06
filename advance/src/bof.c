@@ -12,7 +12,7 @@ int main(){
     setvbuf(stderr,0,2,0);
     
     puts("Welcome to bof challenge!");
-    char buf[30];
+    char buf[0x30];
     gets(buf);
     return 0;
 }

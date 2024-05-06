@@ -17,7 +17,7 @@ int main(){
     read(0,sc,0x100);
     puts("And your buffer:");
 
-    char buf[0x38];
+    char buf[0x10];
     gets(buf);
 
     return 0;
