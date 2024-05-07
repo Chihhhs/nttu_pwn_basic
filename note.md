@@ -165,6 +165,6 @@ syscall            ; 執行系統調用
 ## docker-compose
 
 ```bash
-$cd prectice
+$cd advance
 $docker compose up -d
 ```
